@@ -1,4 +1,4 @@
-class Geladeira {
+public class Geladeira {
     
     //atributos
     String marca;
