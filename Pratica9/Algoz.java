@@ -2,8 +2,7 @@ public class Algoz extends Lutador{
     public Algoz(){}
 
     public Algoz(String nome, String alcunha) {
-        setNome(nome);
-        setAlcunha(alcunha);
+        super(nome, alcunha);
     }
 
     public Algoz(String nome, String alcunha, int forca, int velocidade, int vida, int cura) {

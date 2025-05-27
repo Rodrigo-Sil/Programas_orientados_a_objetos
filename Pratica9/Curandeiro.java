@@ -2,8 +2,7 @@ public class Curandeiro extends Lutador{
     public Curandeiro(){}
 
     public Curandeiro(String nome, String alcunha) {
-        setNome(nome);
-        setAlcunha(alcunha);
+        super(nome, alcunha);
     }
 
     public Curandeiro(String nome, String alcunha, int forca, int velocidade, int vida, int cura) {

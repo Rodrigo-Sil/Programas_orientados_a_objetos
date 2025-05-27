@@ -2,8 +2,7 @@ public class Tanque extends Lutador{
     public Tanque(){}
 
     public Tanque(String nome, String alcunha) {
-        setNome(nome);
-        setAlcunha(alcunha);
+        super(nome, alcunha);
     }
 
     public Tanque(String nome, String alcunha, int forca, int velocidade, int vida, int cura) {
