@@ -106,12 +106,10 @@ public class CPF {
                             case 8:
                             case 10:
                             case 12:
-                                if(diaEmissao > 0 && diaEmissao <= 31) {
-                                     this.diaEmissao = diaEmissao;   
-                                }
+                                this.diaEmissao = diaEmissao;
                                 break;
                             case 2:
-                                if(diaEmissao > 0 && diaEmissao <= 28) {
+                                if(diaEmissao <= 28) {
                                     this.diaEmissao = diaEmissao;
                                 }
                                 break;
@@ -119,7 +117,7 @@ public class CPF {
                             case 6:
                             case 9:
                             case 11:
-                                if (diaEmissao > 0 && diaEmissao <= 30) {
+                                if (diaEmissao <= 30) {
                                     this.diaEmissao = diaEmissao;
                                 }
                                 break;
